@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letícia & Adryan — nossa história ❤️</title>
+  <meta name="description" content="A história de Letícia & Adryan, contada do nosso jeito.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="play">▶</span>
+      <span>Letícia & Adryan</span>
+    </div>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Alternar tema">☾</button>
+      <button class="love-btn" id="surpriseBtn">❤️ surpresa</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="video-card">
+        <div class="video-frame" id="videoFrame">
+          <video id="coupleVideo" controls playsinline poster="assets/capa.jpg">
+            <source src="assets/nosso-video.mp4" type="video/mp4">
+            Seu navegador não conseguiu carregar o vídeo.
+          </video>
+          <div class="video-placeholder" id="videoPlaceholder">
+            <div class="big-play" id="playFake">▶</div>
+            <p>Coloque <strong>nosso-video.mp4</strong> dentro de <code>assets</code></p>
+            <small>Você também pode trocar a imagem <strong>capa.jpg</strong>.</small>
+          </div>
+        </div>
+
+        <div class="video-info">
+          <h1>Letícia & Adryan — a história de nós dois ❤️</h1>
+          <div class="video-meta">
+            <span>∞ visualizações</span>
+            <span>•</span>
+            <span id="publishDate">30/04/2025 • o nosso começo</span>
+          </div>
+
+          <div class="video-actions">
+            <button id="likeBtn">♡ <span id="likeCount">∞</span></button>
+            <button id="shareBtn">↗ compartilhar</button>
+            <button id="memoryBtn">💌 uma mensagem</button>
+          </div>
+
+          <div class="description">
+            <strong>De “maninho e maninha” para o nosso para sempre. ❤️</strong>
+            <p>
+              A gente se conheceu pelo Instagram. Começamos como amigos, apoiamos um ao outro
+              e, sem perceber, uma amizade virou a história mais importante das nossas vidas.
+              Em 26/04/2025 nos vimos pela primeira vez, no final da escada do terminal de ônibus
+              de Ponta Grossa. E, desde aquele momento, não nos separamos mais.
+            </p>
+            <span class="tag">#nósdois</span>
+            <span class="tag">#amor</span>
+            <span class="tag">#parasempre</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="channel-card">
+        <div class="avatar">N❤N</div>
+        <div>
+          <h2>Letícia & Adryan</h2>
+          <p>@leticiaeadryan</p>
+        </div>
+        <div class="subscribed">♡ juntos</div>
+      </aside>
+    </section>
+
+    <section class="comments-section">
+      <div class="section-heading">
+        <h2>Comentários</h2>
+        <span>os comentários que o nosso amor merece</span>
+      </div>
+
+      <div class="comment-live" id="liveComment">
+        <span class="live-dot"></span>
+        comentários aparecendo...
+      </div>
+
+      <div class="comments" id="comments">
+        <article class="comment">
+          <div class="comment-avatar">🥹</div>
+          <div>
+            <div class="comment-top"><strong>alguém que torce por nós</strong><span>há 2 anos</span></div>
+            <p>Eu assistiria essa história mil vezes. ❤️</p>
+            <div class="comment-actions">♡ 2,4 mil &nbsp; · &nbsp; responder</div>
+          </div>
+        </article>
+
+        <article class="comment">
+          <div class="comment-avatar">💌</div>
+          <div>
+            <div class="comment-top"><strong>o destino</strong><span>há muito tempo</span></div>
+            <p>Comentário fixado: ainda bem que vocês se encontraram.</p>
+            <div class="comment-actions">♡ ∞ &nbsp; · &nbsp; responder</div>
+          </div>
+        </article>
+
+        <article class="comment">
+          <div class="comment-avatar">😂</div>
+          <div>
+            <div class="comment-top"><strong>testemunha oficial</strong><span>há 1 ano</span></div>
+            <p>Eu só vim pelos bastidores e fiquei pela história de amor.</p>
+            <div class="comment-actions">♡ 892 &nbsp; · &nbsp; responder</div>
+          </div>
+        </article>
+      </div>
+
+      <button class="more-btn" id="moreComments">carregar mais comentários</button>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="eyebrow">A NOSSA HISTÓRIA</div>
+      <h2>Do primeiro capítulo<br>ao nosso para sempre.</h2>
+      <p class="lead">Cada momento ganhou um lugar aqui.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">01</div>
+          <div class="timeline-content">
+            <span class="date">Instagram • antes de tudo</span>
+            <h3>Quando éramos “maninho e maninha”</h3>
+            <p>A gente se conheceu no Instagram quando ele ainda namorava outra garota. Éramos amigos,
+            e eu estava ali apoiando ele. Naquela época, éramos só “maninho e maninha” — sem imaginar
+            onde aquela amizade iria chegar.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">02</div>
+          <div class="timeline-content">
+            <span class="date">26.04.2025</span>
+            <h3>O dia em que finalmente nos vimos</h3>
+            <p>Foi no final da escada do terminal de ônibus de Ponta Grossa. E bastou aquele encontro:
+            desde a primeira vez que nos vimos, não nos separamos mais. Eu só conseguia pedir uma coisa:
+            “não me abandona”.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">03</div>
+          <div class="timeline-content">
+            <span class="date">30.04.2025</span>
+            <h3>O dia em que viramos nós</h3>
+            <p>O pedido de namoro aconteceu na casa dele — e já veio com uma aliança. A parte que eu não
+            sabia? Ele já usava aquela aliança antes de começarmos a namorar. Quando me entregou, contou
+            esse detalhe. E ali começava oficialmente a nossa história.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">04</div>
+          <div class="timeline-content">
+            <span class="date">14.02.2026 • Parque Ambiental</span>
+            <h3>O nosso “para sempre” ganhou uma aliança 💍</h3>
+            <p>No Dia dos Namorados, no Parque Ambiental, veio o pedido de noivado.
+            O que começou como “maninho e maninha” agora tinha um novo capítulo:
+            Letícia e Adryan, noivos.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item final">
+          <div class="timeline-dot">∞</div>
+          <div class="timeline-content">
+            <span class="date">Continua...</span>
+            <h3>O melhor ainda está sendo escrito.</h3>
+            <p>Porque a nossa história não termina neste site. Ela só ganhou uma página nova.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="phone-section">
+      <div class="phone-copy">
+        <div class="eyebrow">MEMÓRIAS</div>
+        <h2>Um pedacinho do nosso celular.</h2>
+        <p>Toque nos aplicativos. Existem pequenas coisas escondidas por aqui. 👀</p>
+      </div>
+
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="status"><span>09:37</span><span>♡ ▪︎</span></div>
+          <div class="phone-title">nós dois</div>
+          <div class="apps">
+            <button class="app app-pink" data-modal="photos">📸<small>Fotos</small></button>
+            <button class="app app-blue" data-modal="chat">💬<small>Conversas</small></button>
+            <button class="app app-green" data-modal="music">🎵<small>Nossa música</small></button>
+            <button class="app app-purple" data-modal="map">📍<small>Lugares</small></button>
+            <button class="app app-yellow" data-modal="secret">🔒<small>Segredo</small></button>
+            <button class="app app-red" data-modal="letter">💌<small>Carta</small></button>
+          </div>
+          <div class="phone-widget">
+            <span>❤️</span>
+            <div><strong id="daysTogether">0 dias</strong><small>de uma história que ainda continua</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-heading">
+        <h2>Alguns dos nossos momentos</h2>
+        <span>troque estas imagens pelas fotos de vocês</span>
+      </div>
+      <div class="gallery">
+        <img class="real-photo tall" src="assets/foto1.jpg" alt="Letícia e Adryan">
+        <img class="real-photo" src="assets/foto2.jpg" alt="Letícia e Adryan">
+        <img class="real-photo" src="assets/foto3.jpg" alt="Letícia e Adryan">
+        <img class="real-photo wide" src="assets/foto4.jpg" alt="Letícia e Adryan">
+        <img class="real-photo" src="assets/foto5.jpg" alt="Letícia e Adryan">
+      </div>
+    </section>
+
+    <section class="counter-section">
+      <div class="eyebrow">DESDE</div>
+      <h2 id="counterDate">01.01.2024</h2>
+      <p>e contando...</p>
+      <div class="counter">
+        <div><strong id="years">0</strong><span>anos</span></div>
+        <div><strong id="months">0</strong><span>meses</span></div>
+        <div><strong id="days">0</strong><span>dias</span></div>
+        <div><strong id="hours">0</strong><span>horas</span></div>
+      </div>
+    </section>
+
+    <section class="blorerom-section">
+      <div class="blorerom-card">
+        <div class="eyebrow">UMA PALAVRA QUE É SÓ NOSSA</div>
+        <div class="blorerom">Blorerom.</div>
+        <p>Não precisa fazer sentido para mais ninguém.</p>
+        <small>É só uma dessas coisas que pertencem a nós dois. ❤️</small>
+      </div>
+    </section>
+
+    <section class="letter-section">
+      <div class="letter">
+        <span class="stamp">❤</span>
+        <div class="eyebrow">PARA VOCÊ</div>
+        <h2>Para o meu Adryan...</h2>
+        <p>
+          Quem diria que duas pessoas que começaram como “maninho e maninha” no Instagram
+          acabariam aqui, planejando uma vida juntas?
+        </p>
+        <p>
+          Eu ainda lembro do final daquela escada no terminal de Ponta Grossa, de quando
+          te vi pela primeira vez e pedi para você não me abandonar. Hoje, olhando tudo o
+          que vivemos, parece que aquele pedido virou uma promessa.
+        </p>
+        <p>
+          30/04/2025 foi o nosso começo. 14/02/2026 foi o dia em que nosso para sempre
+          ganhou uma aliança. E ainda tem tanta história para a gente viver.
+        </p>
+        <p class="signature">Com amor,<br><strong>Letícia ❤️</strong></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    feito com amor, risadas e um pouquinho de código. ♡
+  </footer>
+
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="close" id="closeModal">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
